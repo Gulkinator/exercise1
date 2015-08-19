@@ -6,4 +6,4 @@ puts 'Last Name'
 
 name_length=first.length + last.length
 
-puts 'Hello ' + first + ' '+  last + '!  Did you know your name is ' + name_length.to_s + ' letters long and is spelled ' + first.reverse + ' ' + last.reverse + ' backwards? '
+puts 'Hello ' + first + ' '+  last + '!  Did you know your name is ' + name_length.to_s + ' letters long and is spelled ' + first.reverse + ' ' + last.reverse + ' backwards?'

@@ -4,8 +4,6 @@ puts 'first name'
 puts 'Last Name'
     last=gets.chomp
 
-puts 'Hello ' + first + ' '+  last + '!'
+name_length=first.length + last.length
 
-
-
-
+puts 'Hello ' + first + ' '+  last + '!  Did you know your name is ' + name_length.to_s + 'letters long?'

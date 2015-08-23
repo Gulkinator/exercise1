@@ -1,18 +1,18 @@
+#I don't really understand why this works.  I need to look into this each_with_index method more.
+
 title = 'Table of Contents'
 chapters = [['Getting Started', 1], ['Numbers', 3], ['Letters', 7]]
 
 puts title.center(50)
 puts
 
-chap_num = 1
+chapters.each_with_index do |chap, idx|
+    name, page = chap
+    chap_num = idx + 1
 
-chapters.each do |chap|
-    name = chap[0]
-    page = chap[1]
-    
-    beginning = 'Chapter ' + chap_num.to_s + ': ' + name
-    ending = 'page ' + page.to_s
+    beginning = "Chapter #{chap_num}: #{name}"
+    ending = "page #{page}"
     
     puts beginning.ljust(30) + ending.rjust(20)
-    chap_num = chap_num + 1
+
 end

@@ -16,6 +16,9 @@ COMPARISONS
 INTEGER
 times
 
+ARRAY
+each, join, push, pop, last,
+
 
 RESERVED WORDS
 puts, gets, if, else, elsif, while, break, true, false, nil

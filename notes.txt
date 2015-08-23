@@ -1,0 +1,28 @@
+ARITHMETIC
++, -, *, /, **, %
+
+
+STRING
+ljust, rjust, upcase, downcase, swapcase, capitalize, length, reverse
+
+
+CONVERSIONS
+to_i, to_s, to_f
+
+
+COMPARISONS
+<, >, >=, <=, ==, !=
+
+INTEGER
+times
+
+
+RESERVED WORDS
+puts, gets, if, else, elsif, while, break, true, false, nil
+
+TERMS
+Scope Operator
+Lexigraphic Order
+Special Objects
+Logical Operators
+Iterators
